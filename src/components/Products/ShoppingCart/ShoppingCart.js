@@ -24,7 +24,7 @@ export const ShoppingCart = () => {
 
   useEffect(() => {
     if(productsCart.length > 0) {
-      getTotalPrice()
+         getTotalPrice()
     }
   },[productsCart])
 
